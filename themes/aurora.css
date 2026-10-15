@@ -1,0 +1,28 @@
+/* MysticQuaere theme: Aurora */
+window.mystic { background: transparent; }
+window.mystic .card {
+    background: linear-gradient(160deg, rgba(14, 30, 40, 0.66), rgba(30, 14, 44, 0.66));
+    border: 1px solid rgba(120, 240, 220, 0.20);
+    border-radius: 18px;
+    padding: 8px;
+    box-shadow: inset 0 1px 0 rgba(140, 255, 230, 0.16);
+}
+window.mystic .card entry.search {
+    background: transparent; border: none; box-shadow: none; outline: none;
+    min-height: 52px; padding: 0 10px;
+    font-size: 22px; color: #e6fff9; caret-color: #6ff2d8;
+}
+window.mystic .card entry.search image { color: rgba(111, 242, 216, 0.70); -gtk-icon-size: 22px; }
+window.mystic .card entry.search text placeholder { color: rgba(230, 255, 249, 0.38); }
+window.mystic .card separator {
+    background: linear-gradient(to right, rgba(111, 242, 216, 0.35), rgba(176, 120, 255, 0.35));
+    min-height: 1px; margin: 4px 6px;
+}
+window.mystic .card list { background: transparent; }
+window.mystic .card row { border-radius: 12px; padding: 4px 6px; color: #e6fff9; }
+window.mystic .card row:selected {
+    background: linear-gradient(90deg, rgba(80, 230, 200, 0.22), rgba(170, 110, 255, 0.22));
+}
+window.mystic .card .title { font-size: 15px; font-weight: 600; }
+window.mystic .card .subtitle { font-size: 12px; color: rgba(230, 255, 249, 0.52); }
+window.mystic .card .calc { font-size: 22px; color: #7ff5dd; }

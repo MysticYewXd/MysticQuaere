@@ -1,0 +1,19 @@
+[package]
+name = "mysticQuaere"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.92"
+description = "A Spotlight-style launcher for Linux that takes its colours from your wallpaper"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/MysticYewXd/mysticquaere"
+keywords = ["launcher", "spotlight", "gtk4", "wayland", "hyprland"]
+categories = ["gui"]
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.11" }
+gtk4-layer-shell = "0.8"
+
+[profile.release]
+lto = true
+strip = true

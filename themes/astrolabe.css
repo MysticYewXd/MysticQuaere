@@ -1,0 +1,35 @@
+/* MysticQuaere theme: Astrolabe */
+window.mystic { background: transparent; }
+window.mystic .card {
+    background: rgba(10, 18, 38, 0.70);
+    border: 1px solid rgba(214, 178, 106, 0.38);
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: inset 0 0 0 5px rgba(10, 18, 38, 0.0),
+                inset 0 0 0 6px rgba(214, 178, 106, 0.14);
+}
+window.mystic .card entry.search {
+    background: transparent; border: none; box-shadow: none; outline: none;
+    min-height: 54px; padding: 0 10px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 27px; letter-spacing: 0.5px;
+    color: #f3e6c4; caret-color: #e2be72;
+}
+window.mystic .card entry.search image { color: rgba(226, 190, 114, 0.70); -gtk-icon-size: 22px; }
+window.mystic .card entry.search text placeholder { color: rgba(243, 230, 196, 0.35); font-style: italic; }
+window.mystic .card separator {
+    background: linear-gradient(to right, transparent, rgba(214, 178, 106, 0.55), transparent);
+    min-height: 1px; margin: 4px 6px;
+}
+window.mystic .card list { background: transparent; }
+window.mystic .card row { border-radius: 4px; padding: 4px 6px; color: #f3e6c4; }
+window.mystic .card row:selected {
+    background: rgba(214, 178, 106, 0.13);
+    box-shadow: inset 0 0 0 1px rgba(214, 178, 106, 0.42);
+}
+window.mystic .card .title { font-family: "Cormorant Garamond", serif; font-size: 18px; font-weight: 600; }
+window.mystic .card .subtitle {
+    font-family: "Cormorant Garamond", serif; font-style: italic;
+    font-size: 14px; color: rgba(243, 230, 196, 0.58);
+}
+window.mystic .card .calc { font-size: 26px; color: #e2be72; }
